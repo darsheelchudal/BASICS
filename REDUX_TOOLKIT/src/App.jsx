@@ -1,9 +1,12 @@
 import "./App.css";
+import TaskAdd from "./components/TaskAdd/TaskAdd";
+import TaskList from "./components/TaskList/TaskList";
 
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>{" "}
+      <TaskAdd />
+      <TaskList />
     </>
   );
 }
